@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "intech-realidad-mixta",
+    "file": "video-1",
+    "filter": "crop=iw:616:0:0"
+  },
+  {
+    "slug": "intech-realidad-mixta",
+    "file": "video-2",
+    "filter": "crop=iw:608:0:0"
+  },
+  {
+    "slug": "flanders-realidad-mixta",
+    "file": "video-1",
+    "filter": "crop=iw:630:0:0"
+  },
+  {
+    "slug": "flanders-realidad-mixta",
+    "file": "video-2",
+    "filter": "drawbox=x=824:y=636:w=126:h=60:color=black:t=fill"
+  },
+  {
+    "slug": "siena-realidad-virtual",
+    "file": "video-1",
+    "filter": "crop=iw:640:0:0"
+  },
+  {
+    "slug": "festi-feria-realidad-virtual",
+    "file": "video-1",
+    "filter": "crop=iw:640:0:0"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "name": "xperiencia-creativa-video-presentacion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Video corporativo de Xperiencia Creativa: Remotion, React y TypeScript, 55 segundos, UHD y Full HD.",
+  "scripts": {
+    "dev": "remotion studio video/index.ts",
+    "video:studio": "remotion studio video/index.ts",
+    "video:test": "node scripts/andesmin-render.mjs test",
+    "video:1080p": "node scripts/andesmin-render.mjs 1080p",
+    "video:4k": "node scripts/andesmin-render.mjs 4k",
+    "video:stills": "node scripts/andesmin-render.mjs stills",
+    "video:audit": "node scripts/andesmin-audit.mjs",
+    "video:clean": "node scripts/andesmin-clean-media.mjs",
+    "video:check-assets": "node scripts/check-assets.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "check": "npm run typecheck && npm run lint && npm run video:check-assets"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.539",
+    "@remotion/media": "4.0.539"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "sharp": "0.35.5",
+    "typescript": "5.9.3",
+    "eslint": "9.39.5",
+    "@eslint/js": "9.39.5",
+    "@typescript-eslint/parser": "8.71.0",
+    "@typescript-eslint/eslint-plugin": "8.71.0",
+    "@types/node": "20.19.43",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  },
+  "engines": {
+    "node": ">=22.12.0 <25"
+  }
+}
